@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F522AEC5156945DA00F72CC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F522AEC4156945DA00F72CC6 /* UIKit.framework */; };
+		F522AEC7156945DA00F72CC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F522AEC6156945DA00F72CC6 /* Foundation.framework */; };
+		F522AEC9156945DA00F72CC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F522AEC8156945DA00F72CC6 /* CoreGraphics.framework */; };
+		F522AECF156945DA00F72CC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F522AECD156945DA00F72CC6 /* InfoPlist.strings */; };
+		F522AED1156945DA00F72CC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F522AED0156945DA00F72CC6 /* main.m */; };
+		F522AED5156945DA00F72CC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F522AED4156945DA00F72CC6 /* AppDelegate.m */; };
+		F522AED8156945DA00F72CC6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F522AED6156945DA00F72CC6 /* MainStoryboard_iPhone.storyboard */; };
+		F522AEDB156945DA00F72CC6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F522AED9156945DA00F72CC6 /* MainStoryboard_iPad.storyboard */; };
+		F522AEDE156945DA00F72CC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F522AEDD156945DA00F72CC6 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F522AEC0156945DA00F72CC6 /* EasyContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F522AEC4156945DA00F72CC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F522AEC6156945DA00F72CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F522AEC8156945DA00F72CC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F522AECC156945DA00F72CC6 /* EasyContacts-Info.plist */ = {isa = PBXFileReference; path = "EasyContacts-Info.plist"; sourceTree = "<group>"; };
+		F522AECE156945DA00F72CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F522AED0156945DA00F72CC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F522AED2156945DA00F72CC6 /* EasyContacts-Prefix.pch */ = {isa = PBXFileReference; path = "EasyContacts-Prefix.pch"; sourceTree = "<group>"; };
+		F522AED3156945DA00F72CC6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F522AED4156945DA00F72CC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F522AED7156945DA00F72CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F522AEDA156945DA00F72CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F522AEDC156945DA00F72CC6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F522AEDD156945DA00F72CC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F522AEBD156945DA00F72CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F522AEC5156945DA00F72CC6 /* UIKit.framework in Frameworks */,
+				F522AEC7156945DA00F72CC6 /* Foundation.framework in Frameworks */,
+				F522AEC9156945DA00F72CC6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F522AEB5156945DA00F72CC6 = {
+			isa = PBXGroup;
+			children = (
+				F522AECA156945DA00F72CC6 /* EasyContacts */,
+				F522AEC3156945DA00F72CC6 /* Frameworks */,
+				F522AEC1156945DA00F72CC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F522AEC1156945DA00F72CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F522AEC0156945DA00F72CC6 /* EasyContacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F522AEC3156945DA00F72CC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F522AEC4156945DA00F72CC6 /* UIKit.framework */,
+				F522AEC6156945DA00F72CC6 /* Foundation.framework */,
+				F522AEC8156945DA00F72CC6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F522AECA156945DA00F72CC6 /* EasyContacts */ = {
+			isa = PBXGroup;
+			children = (
+				F522AED3156945DA00F72CC6 /* AppDelegate.h */,
+				F522AED4156945DA00F72CC6 /* AppDelegate.m */,
+				F522AED6156945DA00F72CC6 /* MainStoryboard_iPhone.storyboard */,
+				F522AED9156945DA00F72CC6 /* MainStoryboard_iPad.storyboard */,
+				F522AEDC156945DA00F72CC6 /* ViewController.h */,
+				F522AEDD156945DA00F72CC6 /* ViewController.m */,
+				F522AECB156945DA00F72CC6 /* Supporting Files */,
+			);
+			path = EasyContacts;
+			sourceTree = "<group>";
+		};
+		F522AECB156945DA00F72CC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F522AECC156945DA00F72CC6 /* EasyContacts-Info.plist */,
+				F522AECD156945DA00F72CC6 /* InfoPlist.strings */,
+				F522AED0156945DA00F72CC6 /* main.m */,
+				F522AED2156945DA00F72CC6 /* EasyContacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F522AEBF156945DA00F72CC6 /* EasyContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F522AEE1156945DA00F72CC6 /* Build configuration list for PBXNativeTarget "EasyContacts" */;
+			buildPhases = (
+				F522AEBC156945DA00F72CC6 /* Sources */,
+				F522AEBD156945DA00F72CC6 /* Frameworks */,
+				F522AEBE156945DA00F72CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyContacts;
+			productName = EasyContacts;
+			productReference = F522AEC0156945DA00F72CC6 /* EasyContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F522AEB7156945DA00F72CC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "8600@thoughtworks.com";
+			};
+			buildConfigurationList = F522AEBA156945DA00F72CC6 /* Build configuration list for PBXProject "EasyContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F522AEB5156945DA00F72CC6;
+			productRefGroup = F522AEC1156945DA00F72CC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F522AEBF156945DA00F72CC6 /* EasyContacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F522AEBE156945DA00F72CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F522AECF156945DA00F72CC6 /* InfoPlist.strings in Resources */,
+				F522AED8156945DA00F72CC6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F522AEDB156945DA00F72CC6 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F522AEBC156945DA00F72CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F522AED1156945DA00F72CC6 /* main.m in Sources */,
+				F522AED5156945DA00F72CC6 /* AppDelegate.m in Sources */,
+				F522AEDE156945DA00F72CC6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F522AECD156945DA00F72CC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F522AECE156945DA00F72CC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F522AED6156945DA00F72CC6 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F522AED7156945DA00F72CC6 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F522AED9156945DA00F72CC6 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F522AEDA156945DA00F72CC6 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F522AEDF156945DA00F72CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F522AEE0156945DA00F72CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F522AEE2156945DA00F72CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyContacts/EasyContacts-Prefix.pch";
+				INFOPLIST_FILE = "EasyContacts/EasyContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F522AEE3156945DA00F72CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyContacts/EasyContacts-Prefix.pch";
+				INFOPLIST_FILE = "EasyContacts/EasyContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F522AEBA156945DA00F72CC6 /* Build configuration list for PBXProject "EasyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F522AEDF156945DA00F72CC6 /* Debug */,
+				F522AEE0156945DA00F72CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F522AEE1156945DA00F72CC6 /* Build configuration list for PBXNativeTarget "EasyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F522AEE2156945DA00F72CC6 /* Debug */,
+				F522AEE3156945DA00F72CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F522AEB7156945DA00F72CC6 /* Project object */;
+}
