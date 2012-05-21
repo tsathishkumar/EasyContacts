@@ -14,8 +14,12 @@
 		F522AED1156945DA00F72CC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F522AED0156945DA00F72CC6 /* main.m */; };
 		F522AED5156945DA00F72CC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F522AED4156945DA00F72CC6 /* AppDelegate.m */; };
 		F522AED8156945DA00F72CC6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F522AED6156945DA00F72CC6 /* MainStoryboard_iPhone.storyboard */; };
-		F522AEDB156945DA00F72CC6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F522AED9156945DA00F72CC6 /* MainStoryboard_iPad.storyboard */; };
 		F522AEDE156945DA00F72CC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F522AEDD156945DA00F72CC6 /* ViewController.m */; };
+		F522AEE61569480100F72CC6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F522AEE41569480100F72CC6 /* AddressBook.framework */; };
+		F522AEE71569480100F72CC6 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F522AEE51569480100F72CC6 /* AddressBookUI.framework */; };
+		F5D81B0D15696A49003F0FAE /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5D81B0015696A49003F0FAE /* FBDialog.bundle */; };
+		F5D81B0E15696A49003F0FAE /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D81B0615696A49003F0FAE /* libfacebook_ios_sdk.a */; };
+		F5D81B1515696D6E003F0FAE /* FaceBookDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D81B1415696D6E003F0FAE /* FaceBookDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +27,34 @@
 		F522AEC4156945DA00F72CC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F522AEC6156945DA00F72CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F522AEC8156945DA00F72CC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F522AECC156945DA00F72CC6 /* EasyContacts-Info.plist */ = {isa = PBXFileReference; path = "EasyContacts-Info.plist"; sourceTree = "<group>"; };
+		F522AECC156945DA00F72CC6 /* EasyContacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyContacts-Info.plist"; sourceTree = "<group>"; };
 		F522AECE156945DA00F72CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F522AED0156945DA00F72CC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F522AED2156945DA00F72CC6 /* EasyContacts-Prefix.pch */ = {isa = PBXFileReference; path = "EasyContacts-Prefix.pch"; sourceTree = "<group>"; };
-		F522AED3156945DA00F72CC6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F522AED2156945DA00F72CC6 /* EasyContacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyContacts-Prefix.pch"; sourceTree = "<group>"; };
+		F522AED3156945DA00F72CC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F522AED4156945DA00F72CC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F522AED7156945DA00F72CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		F522AEDA156945DA00F72CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F522AEDC156945DA00F72CC6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F522AEDC156945DA00F72CC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F522AEDD156945DA00F72CC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F522AEE41569480100F72CC6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F522AEE51569480100F72CC6 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F5D81AFE15696A49003F0FAE /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		F5D81AFF15696A49003F0FAE /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		F5D81B0015696A49003F0FAE /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		F5D81B0115696A49003F0FAE /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		F5D81B0215696A49003F0FAE /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		F5D81B0315696A49003F0FAE /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		F5D81B0415696A49003F0FAE /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		F5D81B0515696A49003F0FAE /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F5D81B0615696A49003F0FAE /* libfacebook_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfacebook_ios_sdk.a; sourceTree = "<group>"; };
+		F5D81B0715696A49003F0FAE /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		F5D81B0815696A49003F0FAE /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		F5D81B0915696A49003F0FAE /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		F5D81B0A15696A49003F0FAE /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		F5D81B0B15696A49003F0FAE /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F5D81B0C15696A49003F0FAE /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F5D81B1315696D6E003F0FAE /* FaceBookDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceBookDelegate.h; sourceTree = "<group>"; };
+		F5D81B1415696D6E003F0FAE /* FaceBookDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceBookDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,9 +62,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F522AEE61569480100F72CC6 /* AddressBook.framework in Frameworks */,
+				F522AEE71569480100F72CC6 /* AddressBookUI.framework in Frameworks */,
 				F522AEC5156945DA00F72CC6 /* UIKit.framework in Frameworks */,
 				F522AEC7156945DA00F72CC6 /* Foundation.framework in Frameworks */,
 				F522AEC9156945DA00F72CC6 /* CoreGraphics.framework in Frameworks */,
+				F5D81B0E15696A49003F0FAE /* libfacebook_ios_sdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +77,9 @@
 		F522AEB5156945DA00F72CC6 = {
 			isa = PBXGroup;
 			children = (
+				F5D81AFD15696A49003F0FAE /* facebook-ios-sdk */,
+				F522AEE41569480100F72CC6 /* AddressBook.framework */,
+				F522AEE51569480100F72CC6 /* AddressBookUI.framework */,
 				F522AECA156945DA00F72CC6 /* EasyContacts */,
 				F522AEC3156945DA00F72CC6 /* Frameworks */,
 				F522AEC1156945DA00F72CC6 /* Products */,
@@ -82,10 +110,11 @@
 				F522AED3156945DA00F72CC6 /* AppDelegate.h */,
 				F522AED4156945DA00F72CC6 /* AppDelegate.m */,
 				F522AED6156945DA00F72CC6 /* MainStoryboard_iPhone.storyboard */,
-				F522AED9156945DA00F72CC6 /* MainStoryboard_iPad.storyboard */,
 				F522AEDC156945DA00F72CC6 /* ViewController.h */,
 				F522AEDD156945DA00F72CC6 /* ViewController.m */,
 				F522AECB156945DA00F72CC6 /* Supporting Files */,
+				F5D81B1315696D6E003F0FAE /* FaceBookDelegate.h */,
+				F5D81B1415696D6E003F0FAE /* FaceBookDelegate.m */,
 			);
 			path = EasyContacts;
 			sourceTree = "<group>";
@@ -99,6 +128,28 @@
 				F522AED2156945DA00F72CC6 /* EasyContacts-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D81AFD15696A49003F0FAE /* facebook-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F5D81AFE15696A49003F0FAE /* Facebook.h */,
+				F5D81AFF15696A49003F0FAE /* FBConnect.h */,
+				F5D81B0015696A49003F0FAE /* FBDialog.bundle */,
+				F5D81B0115696A49003F0FAE /* FBDialog.h */,
+				F5D81B0215696A49003F0FAE /* FBFrictionlessRequestSettings.h */,
+				F5D81B0315696A49003F0FAE /* FBLoginDialog.h */,
+				F5D81B0415696A49003F0FAE /* FBRequest.h */,
+				F5D81B0515696A49003F0FAE /* JSON.h */,
+				F5D81B0615696A49003F0FAE /* libfacebook_ios_sdk.a */,
+				F5D81B0715696A49003F0FAE /* NSObject+SBJSON.h */,
+				F5D81B0815696A49003F0FAE /* NSString+SBJSON.h */,
+				F5D81B0915696A49003F0FAE /* SBJSON.h */,
+				F5D81B0A15696A49003F0FAE /* SBJsonBase.h */,
+				F5D81B0B15696A49003F0FAE /* SBJsonParser.h */,
+				F5D81B0C15696A49003F0FAE /* SBJsonWriter.h */,
+			);
+			path = "facebook-ios-sdk";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +205,7 @@
 			files = (
 				F522AECF156945DA00F72CC6 /* InfoPlist.strings in Resources */,
 				F522AED8156945DA00F72CC6 /* MainStoryboard_iPhone.storyboard in Resources */,
-				F522AEDB156945DA00F72CC6 /* MainStoryboard_iPad.storyboard in Resources */,
+				F5D81B0D15696A49003F0FAE /* FBDialog.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +219,7 @@
 				F522AED1156945DA00F72CC6 /* main.m in Sources */,
 				F522AED5156945DA00F72CC6 /* AppDelegate.m in Sources */,
 				F522AEDE156945DA00F72CC6 /* ViewController.m in Sources */,
+				F5D81B1515696D6E003F0FAE /* FaceBookDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +240,6 @@
 				F522AED7156945DA00F72CC6 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		F522AED9156945DA00F72CC6 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F522AEDA156945DA00F72CC6 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -254,6 +298,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyContacts/EasyContacts-Prefix.pch";
 				INFOPLIST_FILE = "EasyContacts/EasyContacts-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/facebook-ios-sdk\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -265,6 +313,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyContacts/EasyContacts-Prefix.pch";
 				INFOPLIST_FILE = "EasyContacts/EasyContacts-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/facebook-ios-sdk\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +341,7 @@
 				F522AEE3156945DA00F72CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AddressBookUI/AddressBookUI.h>
+#import <AddressBook/AddressBook.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<ABPeoplePickerNavigationControllerDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *firstName;
+@property (weak, nonatomic) IBOutlet UILabel *phoneNumber;
+- (IBAction)showPicker:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *lastName;
+- (IBAction)update:(id)sender;
+- (IBAction)syncFacebook:(id)sender;
 
 @end
